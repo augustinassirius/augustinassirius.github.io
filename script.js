@@ -1,7 +1,3 @@
-/* =========================
-   MOBILE NAVIGATION
-========================= */
-
 const menuButton = document.querySelector(".menu-button");
 const navigation = document.querySelector(".navigation");
 
@@ -26,10 +22,6 @@ document.querySelectorAll(".navigation a").forEach(link => {
 
 });
 
-
-/* =========================
-   ACTIVE NAVIGATION
-========================= */
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".navigation a");
@@ -61,7 +53,7 @@ const navigationObserver = new IntersectionObserver(
     },
 
     {
-        threshold: 0.35
+        threshold: 0.15
     }
 
 );
@@ -70,10 +62,6 @@ sections.forEach(section => {
     navigationObserver.observe(section);
 });
 
-
-/* =========================
-   PROJECT EXPANSION
-========================= */
 
 const projects = document.querySelectorAll(".project");
 
@@ -89,10 +77,6 @@ projects.forEach(project => {
 
 });
 
-
-/* =========================
-   COPY EMAIL
-========================= */
 
 const copyEmailButton = document.querySelector("#copy-email");
 const email = document.querySelector("#email");
@@ -125,10 +109,6 @@ if (copyEmailButton && email) {
 
 }
 
-
-/* =========================
-   COPY SOCIAL
-========================= */
 
 const copySocialButton = document.querySelector(".copy-social");
 
@@ -164,10 +144,6 @@ if (copySocialButton) {
 
 }
 
-
-/* =========================
-   FADE IN
-========================= */
 
 const fadeElements = document.querySelectorAll(
     ".hero-content, .section, footer"
@@ -206,10 +182,6 @@ fadeElements.forEach(element => {
 });
 
 
-/* =========================
-   SMOOTH SCROLL
-========================= */
-
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
     link.addEventListener("click", event => {
@@ -238,14 +210,6 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 
-/* =========================
-   SCROLL INDICATOR
-========================= */
-
-/* =========================
-   SCROLL INDICATOR
-========================= */
-
 const scrollIndicator = document.getElementById("scrollIndicator");
 
 let scrollTimeout;
@@ -257,17 +221,14 @@ window.addEventListener("scroll", () => {
     const scrollPosition = window.innerHeight + window.scrollY;
     const pageHeight = document.documentElement.scrollHeight;
 
-    // Hide when scrolling
     scrollIndicator.classList.add("hidden");
 
     clearTimeout(scrollTimeout);
 
-    // Check if user is near the bottom of the page
     if (scrollPosition >= pageHeight - 100) {
         return;
     }
 
-    // Show again after 3 seconds if not at the bottom
     scrollTimeout = setTimeout(() => {
         scrollIndicator.classList.remove("hidden");
     }, 2000);
