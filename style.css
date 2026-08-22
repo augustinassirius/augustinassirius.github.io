@@ -25,11 +25,6 @@ button {
     font: inherit;
 }
 
-
-/* =========================
-   BACKGROUND
-========================= */
-
 .background-video {
     position: fixed;
     inset: 0;
@@ -47,11 +42,6 @@ body::before {
     pointer-events: none;
     z-index: -2;
 }
-
-
-/* =========================
-   HEADER
-========================= */
 
 .header {
     position: fixed;
@@ -114,11 +104,6 @@ body::before {
     width: 100%;
 }
 
-
-/* =========================
-   MOBILE MENU
-========================= */
-
 .menu-button {
     display: none;
     width: 30px;
@@ -135,20 +120,10 @@ body::before {
     background: white;
 }
 
-
-/* =========================
-   MAIN
-========================= */
-
 main {
     width: min(1200px, 90%);
     margin: auto;
 }
-
-
-/* =========================
-   HERO
-========================= */
 
 .hero {
     min-height: 100vh;
@@ -201,11 +176,6 @@ main {
     border-bottom: 1px solid rgba(255, 255, 255, 0.817);
 }
 
-
-/* =========================
-   SECTIONS
-========================= */
-
 .section {
     padding: 100px 0;
 }
@@ -228,11 +198,6 @@ main {
     letter-spacing: -0.05em;
 }
 
-
-/* =========================
-   ABOUT
-========================= */
-
 .section-content {
     max-width: 750px;
     margin-left: 100px;
@@ -243,11 +208,6 @@ main {
     color: rgb(255, 255, 255);
     margin-bottom: 25px;
 }
-
-
-/* =========================
-   EXPERIENCE
-========================= */
 
 .experience-list {
     border-top: 1px solid rgba(255, 255, 255, 0.998);
@@ -286,11 +246,6 @@ main {
     color: rgb(255, 255, 255);
 }
 
-
-/* =========================
-   TAGS
-========================= */
-
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -309,10 +264,6 @@ main {
     color: rgb(255, 255, 255);
 }
 
-
-/* =========================
-   SKILLS
-========================= */
 
 .skills-grid {
     display: grid;
@@ -358,11 +309,6 @@ main {
 .skill p {
     color: rgba(255, 255, 255, 0.5);
 }
-
-
-/* =========================
-   PROJECTS
-========================= */
 
 .projects-list {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -477,10 +423,6 @@ main {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
-
 .contact-content {
     max-width: 700px;
 
@@ -527,10 +469,6 @@ main {
     color: white;
 }
 
-
-/* =========================
-   FOOTER
-========================= */
 
 footer {
     width: min(1200px, 90%);
@@ -580,11 +518,6 @@ footer > span {
     color: white;
 }
 
-
-/* =========================
-   FADE IN
-========================= */
-
 .fade-in {
     opacity: 0;
 
@@ -600,11 +533,6 @@ footer > span {
 
     transform: translateY(0);
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 700px) {
 
