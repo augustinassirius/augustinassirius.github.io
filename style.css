@@ -439,13 +439,8 @@ main {
 
 .email-container {
     display: flex;
-
-    justify-content: space-between;
-
     align-items: center;
-
     padding: 20px 0;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.754);
 }
 
@@ -453,19 +448,43 @@ main {
     font-size: 18px;
 }
 
+.email-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;              /* small gap: Copy ↔ Email Me */
+    margin-left: 50px;    /* larger gap: Email ↔ Copy */
+}
+
 #copy-email {
     background: none;
-
     border: none;
+    padding: 0;
 
     color: rgba(255, 255, 255, 0.6);
 
     cursor: pointer;
-
     font-size: 16px;
 }
 
 #copy-email:hover {
+    color: white;
+}
+
+.email-button {
+    padding: 0;
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    background: none;
+    border: none;
+
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.email-button:hover {
     color: white;
 }
 
