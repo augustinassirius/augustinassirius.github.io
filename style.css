@@ -443,11 +443,9 @@ main {
 
 .email-container {
     display: flex;
-    gap: 8px;
+    justify-content: space-between;
     align-items: center;
-    
     padding: 20px 0;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.754);
 }
 
@@ -457,13 +455,9 @@ main {
 
 #copy-email {
     background: none;
-
     border: none;
-
     color: rgba(255, 255, 255, 0.6);
-
     cursor: pointer;
-
     font-size: 16px;
 }
 
