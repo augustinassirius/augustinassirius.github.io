@@ -234,3 +234,22 @@ window.addEventListener("scroll", () => {
     }, 2000);
 
 });
+
+const pageTitle = document.getElementById("page-title");
+
+if (pageTitle) {
+    const titles = [
+        "Augustinas Sirius | Software Engineer",
+        "Augustinas Sirius | Systems Engineer",
+        "Augustinas Sirius | Aerospace Engineer",
+        "Augustinas Sirius | Embedded Engineer",
+        "Augustinas Sirius | Robotics Engineer"
+    ];
+
+    let currentTitle = 0;
+
+    setInterval(() => {
+        currentTitle = (currentTitle + 1) % titles.length;
+        pageTitle.textContent = titles[currentTitle];
+    }, 2500);
+}
