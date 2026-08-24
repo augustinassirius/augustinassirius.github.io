@@ -176,6 +176,10 @@ main {
     border-bottom: 1px solid rgba(255, 255, 255, 0.817);
 }
 
+.about-github,
+.cv-button {
+    text-decoration: none;
+
 .section {
     padding: 100px 0;
 }
@@ -658,19 +662,4 @@ footer > span {
         transform: translate(-50%, -10px);
     }
 
-}
-
-.download-btn {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.download-btn:hover {
-    opacity: 0.8;
 }
