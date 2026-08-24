@@ -176,10 +176,6 @@ main {
     border-bottom: 1px solid rgba(255, 255, 255, 0.817);
 }
 
-.about-github,
-.cv-button {
-    text-decoration: none;
-
 .section {
     padding: 100px 0;
 }
@@ -443,9 +439,13 @@ main {
 
 .email-container {
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
+
     padding: 20px 0;
+
     border-bottom: 1px solid rgba(255, 255, 255, 0.754);
 }
 
@@ -455,9 +455,13 @@ main {
 
 #copy-email {
     background: none;
+
     border: none;
+
     color: rgba(255, 255, 255, 0.6);
+
     cursor: pointer;
+
     font-size: 16px;
 }
 
@@ -465,14 +469,6 @@ main {
     color: white;
 }
 
-.email-button {
-    display: inline-block;
-    padding: 8px 14px;
-    text-decoration: none;
-    cursor: pointer;
-    border: 1px solid currentColor;
-    border-radius: 5px;
-}
 
 footer {
     width: min(1200px, 90%);
