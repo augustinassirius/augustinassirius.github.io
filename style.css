@@ -443,45 +443,35 @@ main {
 
 .email-container {
     display: flex;
-
-    justify-content: space-between;
-
     align-items: center;
-
+    gap: 8px;
     padding: 20px 0;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.754);
 }
 
 #email {
     font-size: 18px;
+    margin-right: 8px;
 }
 
-#copy-email {
-    background: none;
-
-    border: none;
-
-    color: rgba(255, 255, 255, 0.6);
-
-    cursor: pointer;
-
-    font-size: 16px;
-}
-
-#copy-email:hover {
-    color: white;
-}
-
+#copy-email,
 .email-button {
-    display: inline-block;
-    padding: 8px 14px;
+    font: inherit;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 6px 10px;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid currentColor;
-    border-radius: 5px;
 }
 
+#copy-email:hover,
+.email-button:hover {
+    color: white;
+    border-color: white;
+}
 
 footer {
     width: min(1200px, 90%);
