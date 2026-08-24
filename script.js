@@ -234,3 +234,15 @@ window.addEventListener("scroll", () => {
     }, 2000);
 
 });
+
+
+const titleText = "Augustinas Sirius | Software Engineer     ";
+let titlePosition = 0;
+
+setInterval(() => {
+    document.title =
+        titleText.substring(titlePosition) +
+        titleText.substring(0, titlePosition);
+
+    titlePosition = (titlePosition + 1) % titleText.length;
+}, 200);
