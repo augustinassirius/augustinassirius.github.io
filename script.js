@@ -95,7 +95,7 @@ if (copyEmailButton && email) {
 
             setTimeout(() => {
 
-                copyEmailButton.textContent = "Copy";
+                copyEmailButton.textContent = "(Copy)";
 
             }, 2000);
 
