@@ -245,4 +245,4 @@ setInterval(() => {
         titleText.substring(0, titlePosition);
 
     titlePosition = (titlePosition + 1) % titleText.length;
-}, 3000);
+}, 30000);
