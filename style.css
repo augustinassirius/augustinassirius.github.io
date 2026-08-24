@@ -452,7 +452,7 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;              /* small gap: Copy ↔ Email Me */
-    margin-left: 50px;    /* larger gap: Email ↔ Copy */
+    margin-left: 70px;    /* larger gap: Email ↔ Copy */
 }
 
 #copy-email {
