@@ -440,6 +440,7 @@ main {
 .email-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.754);
 }
@@ -451,8 +452,7 @@ main {
 .email-actions {
     display: flex;
     align-items: center;
-    gap: 8px;              /* small gap: Copy ↔ Email Me */
-    margin-left: 50px;    /* larger gap: Email ↔ Copy */
+    gap: 8px;             
 }
 
 #copy-email {
