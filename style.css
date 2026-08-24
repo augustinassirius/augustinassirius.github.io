@@ -440,7 +440,7 @@ main {
 .email-container {
     display: flex;
 
-    justify-content: flex-start;
+    justify-content: space-between;
 
     align-items: center;
 
@@ -451,19 +451,13 @@ main {
 
 #email {
     font-size: 18px;
-    margin-right: 20px; 
-}
-.email-actions {
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 #copy-email {
     background: none;
 
     border: none;
-    padding:0;
+
     color: rgba(255, 255, 255, 0.6);
 
     cursor: pointer;
@@ -473,20 +467,6 @@ main {
 
 #copy-email:hover {
     color: white;
-}
-.email-button {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-    padding: 6px 10px;
-    border: none;
-    border-radius: 0;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.email-button:hover {
-    color: white;
-    border-color: white;
 }
 
 
