@@ -469,6 +469,27 @@ main {
     color: white;
 }
 
+.email-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.email-button {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    padding: 6px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.email-button:hover {
+    color: white;
+    border-color: white;
+}
+
 
 footer {
     width: min(1200px, 90%);
