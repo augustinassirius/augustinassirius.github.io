@@ -659,3 +659,18 @@ footer > span {
     }
 
 }
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    opacity: 0.8;
+}
