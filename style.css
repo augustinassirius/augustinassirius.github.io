@@ -473,6 +473,15 @@ main {
     color: white;
 }
 
+.email-button {
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
 
 footer {
     width: min(1200px, 90%);
