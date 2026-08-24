@@ -440,7 +440,7 @@ main {
 .email-container {
     display: flex;
 
-    justify-content: space-between;
+    justify-content: flex-start;
 
     align-items: center;
 
@@ -451,6 +451,7 @@ main {
 
 #email {
     font-size: 18px;
+    margin-right: 18px; 
 }
 
 #copy-email {
